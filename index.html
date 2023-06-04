@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap</title>
+    <!-- css links -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/midea.css">
+  </head>
+  <body>
+    
+
+    <section>
+      <div class="container-lg">
+        <div class="box"></div>
+      </div>
+    </section>
+
+    
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-2">
+            <div class="box">minhaz1</div>
+          </div>
+
+          <div class="col-sm-2">
+            <div class="box">minhaz2</div>
+          </div>
+
+          <div class="col-md-2">
+            <div class="box">minhaz3</div>
+          </div>
+
+          <div class="col-lg-2">
+            <div class="box">minhaz4</div>
+          </div>
+
+          <div class="col-xl-2">
+            <div class="box">minhaz5</div>
+          </div>
+
+          <div class="col-xxl-2">
+            <div class="box">minhaz6</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+<section>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg">
+          <div class="box"></div>
+        </div>
+
+        <div class="col-lg">
+          <div class="box"></div>
+        </div>
+
+        <div class="col-lg">
+          <div class="box"></div>
+        </div>
+
+        <div class="col-lg">
+          <div class="box"></div>
+        </div>
+
+        <div class="col-lg">
+          <div class="box"></div>
+        </div>
+
+        <div class="col-lg">
+          <div class="box"></div>
+        </div>
+
+        <div class="col-lg">
+          <div class="box"></div>
+        </div>
+      </div>
+    </div>
+</section>
+
+<section>
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-4 col-sm-3">
+          <div class="box">col-6 col-sm-3</div>
+        </div>
+      <div class="col-4 col-sm-3">
+      <div class="box">col-6 col-sm-3</div>
+    </div>
+
+     Force next columns to break to new line 
+      <div class="w-100"></div>
+
+      <div class="col-6 col-sm-3">
+        <div class="box">col-6 col-sm-3</div>
+      </div>
+      <div class="col-6 col-sm-3">
+        <div class="box">col-6 col-sm-3</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+    <div class="container text-center">
+  <div class="row">
+    <div class="col">
+      <div class="box">
+        First in DOM, no order applied
+      </div>
+      
+    </div>
+    <div class="col order-5b">
+      <div class="box">
+        Second in DOM, with a larger order
+      </div>
+      
+    </div>
+    <div class="col order-1">
+      <div class="box">
+        Third in DOM, with an order of 1
+      </div>
+      
+    </div>
+  </div>
+</div>
+</section>
+
+
+ <section>
+   <div class="container text-center">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="box">
+        .col-md-4
+      </div>
+    </div>
+    <div class="col-md-4 offset-md-4">
+      <div class="box">
+        .col-md-4 .offset-md-4
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-3 offset-md-3">
+      <div class="box">
+        .col-md-3 .offset-md-3
+      </div>
+    </div>
+    <div class="col-md-3 offset-md-3">
+      <div class="box">
+        .col-md-3 .offset-md-3
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6 offset-md-3">
+      <div class="box">
+        .col-md-3 .offset-md-3
+      </div>
+    </div>
+  </div>
+</div>
+ </section>
+
+
+
+  <section>
+      <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+         <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+  </section>
+  
+  <section>
+    <table class="table">
+        <thead>
+          <tr class="table-primary">
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="table-success">
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr class="table-secondary">
+            <th scope="row">2</th>
+            <td >Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr class="table-danger">
+            <th scope="row">3</th>
+            <td>Larry</td>
+            <td>The Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+    </table>
+  </section>
+
+
+    <!-- js links -->
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>
